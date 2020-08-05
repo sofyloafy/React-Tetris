@@ -16,8 +16,8 @@ const Tetris = ({ callback }) =>{
             <Display text='Score'/>
             <Display text='Rows'/>
             <Display text='Level'/>
-          </div>
-          <StartButton />
+            </div>
+            <StartButton />
         </aside>
     </StyledTetris>
   </StyledTetrisWrapper>  
