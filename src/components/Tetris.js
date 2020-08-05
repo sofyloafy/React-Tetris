@@ -7,7 +7,8 @@ import { createStage } from '../gameHelpers';
 
 const Tetris = ({ callback }) =>{
   return (
-    <div>
+    <StyledTetrisWrapper>
+      <StyledTetris>
       <Stage stage ={createStage()}/>
         <aside>
           <div>
@@ -17,9 +18,9 @@ const Tetris = ({ callback }) =>{
           </div>
           <StartButton />
         </aside>
-    </div> 
+    </StyledTetris>
+  </StyledTetrisWrapper>  
   )
-
 }
 
 export default Tetris;
