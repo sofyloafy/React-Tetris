@@ -8,6 +8,18 @@ export const usePlayer = () => {
     tetromino: TETROMINOS[0].shape,
     collided: false,
   });
+
+  const rotate = (matrix, dir) => {
+    const rotatedTetro = matrix.map((_, index) => 
+    matrix.map(col => col[index]),
+    )
+    
+
+  }
+
+  const playerRotate = (stage, dir) => {
+
+  }
   
   const updatePlayerPos = ({ x, y, collided }) => {
     setPlayer(prev => ({
