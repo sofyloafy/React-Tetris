@@ -9,6 +9,8 @@ import { createStage, checkCollision } from '../gameHelpers'
 
 import { usePlayer } from '../hooks/usePlayer'
 import { useStage } from '../hooks/useStage'
+import { useInterval} from '../hooks/useInterval'
+
 
 const Tetris = () => {
   const[dropTime, setDropTime] = useState(null);
