@@ -36,11 +36,11 @@ const Tetris = () => {
     }
     else {
       if(player.pos.y < 1) {
-        console.log("Game over!")
-        setGameOver(true)
-        setDropTime(null)
+        console.log("Game over!");
+        setGameOver(true);
+        setDropTime(null);
       }
-      updatePlayerPos({x: 0, y: 0, collided: true})
+      updatePlayerPos({x: 0, y: 0, collided: true});
 
     }
   }
